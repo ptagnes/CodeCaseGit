@@ -1,0 +1,23 @@
+.Header {
+    background: #3B445C;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.15);
+    height: 80px;
+}
+.HeaderContent {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+.Header img {
+    height: 33px;
+    margin-top: 24px;
+}
+@media (min-width: 769px) {
+    .Header img {
+        margin-left: 240px;
+    }
+}
+@media (max-width: 768px) {
+    .Header img {
+        margin-left: 20px;
+    }
+}

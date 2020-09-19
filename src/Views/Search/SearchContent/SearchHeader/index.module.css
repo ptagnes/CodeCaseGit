@@ -1,0 +1,19 @@
+.SearchHeader {
+    max-width: 1280px;
+    height: 350px;
+    background: linear-gradient(0deg, rgba(59, 68, 92, 0.8), rgba(59, 68, 92, 0)), url(../../../../Assets/images/hero.png);
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.15);
+    border-radius: 3px;
+    color: #fff;
+    padding-left: 80px;
+    display: flex;
+    align-items: center;
+}
+.SearchHeader .content {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 80px;
+
+    width: 758px;
+    height: 88px;
+}
